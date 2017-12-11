@@ -1,0 +1,15 @@
+PODS:
+  - SimpleButton (3.0.1)
+  - TextFieldEffects (1.4.0)
+
+DEPENDENCIES:
+  - SimpleButton (~> 3.0)
+  - TextFieldEffects (~> 1.4)
+
+SPEC CHECKSUMS:
+  SimpleButton: 60e2454b052751b69bbaa8342d97ba91d8bfd7d2
+  TextFieldEffects: 4ee41b5216e674d55fb6ac25107bf1af7629176f
+
+PODFILE CHECKSUM: 02c835cbebdddc1447ddd42f0b0c478bd29b2948
+
+COCOAPODS: 1.1.1
