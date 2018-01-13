@@ -7,6 +7,8 @@ target 'JSONParsing' do
 
  pod 'TextFieldEffects', '~> 1.4'
  pod 'SimpleButton', '~> 3.0'
+pod 'Kingfisher', '~> 4.6'
+ 
   # Pods for JSONParsing
 
 end

@@ -7,221 +7,333 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08680B530EE6A27DF5EA891A06150DF4 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2EE5DDFD82F3B6759829AB7137677F /* TextFieldEffects-dummy.m */; };
-		12902BC8C8C4BE9AC38632AFBC3C84C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		289A8D1B10938EFF9A6B088C1FC591E7 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351D4DD98430AB8E2F04FC5AD75E20F3 /* YoshikoTextField.swift */; };
-		2AAF13E7F2F9C6EAF81E3A17A3621862 /* SimpleButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 187748B052B12B2519D9E9C92FA4F53C /* SimpleButton-dummy.m */; };
-		2F0504E80CBA12C10CE0941DDF7AE289 /* Pods-JSONParsing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2002469DD8388A7AF8E67F1B2634D834 /* Pods-JSONParsing-dummy.m */; };
-		2F4D66B595B33A9319AFA2D083B7FAFA /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EDB57302B5322D57B5E81953B8C974 /* KaedeTextField.swift */; };
-		545D2CC3AC1B133C1A98BDEABD9E88F9 /* SimpleButtonControlState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6564C029824F23ABE6DF8BC0B226E8E2 /* SimpleButtonControlState.swift */; };
-		5882269EFC66D7E20B3E2BBF098B9954 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F082FA45BC12AC37C89CE5889EFB5263 /* HoshiTextField.swift */; };
-		5A90A60E2A199992401F2D6535B02575 /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAEBBF2C5ABB03B764D2CB6ADF1F762 /* AkiraTextField.swift */; };
-		65BB45AA19863E4EF008F5A3DB9DB22F /* SimpleButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C24FEF425996FCFF947A8549322896BE /* SimpleButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E58B8850DC7B2736C12A58BFCA83F08 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64BAA4EB5F4651A2AAB5892D46100A7A /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7668184E2EDD69ED3D89B61CA72981FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		788AA16DF49B396C645E162F6C040911 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75C7298EE0A6F2C38EC931FADD2FA4B /* MadokaTextField.swift */; };
-		9F0785E7F6CE2787274AA6D86B2B3F7E /* Pods-JSONParsing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 586F121F03B7D0E2AE06FDB08A0BB0EE /* Pods-JSONParsing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A26444283A2A8FF1C54C8BBCDCC8D74D /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BC342ECA535B3FDF0357DF83CD0159 /* TextFieldEffects.swift */; };
-		A31E69834DEF0B497568BFF1D21C12E7 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC9750F43209B0E2701632C0A6E19CD /* MinoruTextField.swift */; };
-		B10B131A4B553DA679EC1841FE619C49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		BBC4AB201BE1D2EE45DA84B96D27FB35 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB40E3289E013F13685F283954756B /* IsaoTextField.swift */; };
-		D86AB44327A943C64E00BCF229A3448A /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0FFDEC058B1EB37A05D418BF3D2162 /* YokoTextField.swift */; };
-		DEE3A5F1284DB38DC8129CD19E9FB1BE /* SimpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E253E38889350D3A7E3591697AA790 /* SimpleButton.swift */; };
-		F5EC65EF4D926804769803F21628CF3F /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1715170344B9B0BA7B21A8964AB4222F /* JiroTextField.swift */; };
-		F5F74812EFB3E6C25185054E2805CC9E /* SimpleButtonStateChangeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293F575E2044857FAC1B1A56390FA936 /* SimpleButtonStateChangeValue.swift */; };
+		047C4D945343F46AFF1273DE29F8A290 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0B86E434556F59ADE64B4B9B5FB43 /* ImageView+Kingfisher.swift */; };
+		09A0DDE1726C527699A0C0F53482505B /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5AC9DE62C4B5AF82F82DD59A3AB4F /* AnimatedImageView.swift */; };
+		0C419B96B1C1E5229A1546D1BD3E078E /* SimpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9250DC4A58345412159A0804FAF0B /* SimpleButton.swift */; };
+		0CA6357476373C221D44C498AA1D65FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72913984B3E4B2AD01F71E405D688036 /* Foundation.framework */; };
+		0F755ADCEAA8BF40FF7BECCBD8B5310B /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD142C8C75FB87BA89C931B70787033F /* ImageDownloader.swift */; };
+		11ECC5C9BE0D9AE6AE8079882CB5AF75 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87C052D1272F2EDF147335D8A1CC6BF /* Image.swift */; };
+		12CF563678704ED1369F793FA30AAEA9 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B014DA76E671EC84DE3F50EFC36E194 /* Resource.swift */; };
+		171D92BAB767E217703001B86CAF5E9E /* FormatIndicatedCacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92DB37CA7D5EA7DEE0366B7C3D5248E /* FormatIndicatedCacheSerializer.swift */; };
+		270728363BC4B690C40E53B053710684 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4D6DF5721D0CEF311A70D0E33ADFF /* ImageCache.swift */; };
+		2F288ED3641B2B4775884C462AE377E6 /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F65439D79917D87407088A4B3C1C71 /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F9BCB31A45C653EE61E50CF977CCA7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72913984B3E4B2AD01F71E405D688036 /* Foundation.framework */; };
+		360BFB0640A8F769B0EA10883F26EA44 /* SimpleButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F004D3E6B3A3B6FED3E492FA2A58B5 /* SimpleButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3845689DFB2BE4BFAD2D3C2733D7054A /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44149E6E611A85B7953AC9CD61865402 /* ImageTransition.swift */; };
+		3DA9227F3FD83241A4D4BA9DBAE405AD /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01C7261D3076E86AF12C028DE1FA782 /* ImageModifier.swift */; };
+		3F460CD4398E8D601C1B35DD5CEB83A1 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233EDEC76A54E534F9E5C0EE34E3C338 /* HoshiTextField.swift */; };
+		44ABE9FA5117E8D1E486002582AA99B1 /* Pods-JSONParsing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 586F121F03B7D0E2AE06FDB08A0BB0EE /* Pods-JSONParsing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A401ACC0E84CB848415C86ED7365310 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E05B767020253E748CD8CE0358CE8ADB /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52416A6AC7387ECACCC45596498D96AD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46EFC5CDAF57A92A7B136FFD3525675 /* CFNetwork.framework */; };
+		5AC063843F5C822D8E0DAD049DB2172C /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F80C5E837BC61F1863392815B472B9E /* Filter.swift */; };
+		5B5D8AE167BD8E304CE474A9B8DBA2B4 /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A9CE8E98E2A9554CC5162AF1CE30612 /* Kingfisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6275E2AC7E3B6E651C2975B3A7F83709 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8E134B77CA8970639DCBCB1B55E108 /* KaedeTextField.swift */; };
+		6483E0D98B6D494DEB3E6601BF7DC9DF /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42482B542C58036EF8DF7421BC78C93 /* IsaoTextField.swift */; };
+		6AE8DA783077285DFA7F210F4E779A65 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CD59928C700D117B3DDDEF64DD289C /* KingfisherManager.swift */; };
+		6D7FF624941B90AFD03F196091975312 /* SimpleButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 169DF91B9EB1AD6BA5A55E9632FD1F89 /* SimpleButton-dummy.m */; };
+		741851294FB8098B13137B081DF52292 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0267AA42F093BCA14F281D1BF6EF1B /* TextFieldEffects-dummy.m */; };
+		76D864DE274CDF35D18B4461B9377985 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BC92046CF13E2754121A93BE370983 /* JiroTextField.swift */; };
+		7923098A57D9A4AB4823945E2AF6026F /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFFB04B24D7EBA4B7F9B0579C54B0F3 /* MadokaTextField.swift */; };
+		7AE672DC4B32AF19F80EF28AD5096EDE /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E6E2DE788F7DACDC1EBE8486D52B08 /* UIButton+Kingfisher.swift */; };
+		7F0B3111D41B314575EC5A957DAFF2BA /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D20E14E12F674839E0DF6472EF21C8 /* KingfisherOptionsInfo.swift */; };
+		8B9FEF8C6238D704450E8B631D0CBE26 /* Pods-JSONParsing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2002469DD8388A7AF8E67F1B2634D834 /* Pods-JSONParsing-dummy.m */; };
+		923EB9487045D3297D9932193420D597 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF483EA4F3B2248BC6F0669A9971AF /* ImageProcessor.swift */; };
+		A8096F51DB82ADD9F002809E064F98F9 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BD991EA54FDF09E3327854E9639A7E /* Indicator.swift */; };
+		AA276321E3A96169B102E2B4EFF4F02D /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F79A7948F9920CBD7F545A353D7898 /* CacheSerializer.swift */; };
+		BCDA6101487ADAF8CE25A92727B57C24 /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7280C0180831574DA0670D64B47B5A3B /* Kingfisher-dummy.m */; };
+		C259CD1088BB19AC1086836A63CEBA93 /* SimpleButtonStateChangeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70924C5CB1946E4423D51C506646F8D /* SimpleButtonStateChangeValue.swift */; };
+		C963D32EB410D139E74BD2D5DD172DE9 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54171F5F4716F78828AE45F29C7E250E /* YoshikoTextField.swift */; };
+		CAD9EEB2935162DDE680FE40FC62AF11 /* SimpleButtonControlState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5AEE1D32737A33A1996BFC5C718563 /* SimpleButtonControlState.swift */; };
+		CF26A7E3464D9E7948A06A967B3C0F57 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F16344AF4B58318902E1F2DBA4AB13 /* MinoruTextField.swift */; };
+		D205E953E843C195D4D27A6960483863 /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E673C3C79E760535EC65F3EEA63A982 /* RequestModifier.swift */; };
+		D42E1C9C953771026150086BF7BEBD2B /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E782310F5CA2DFC6C5E2D92788DC192D /* ThreadHelper.swift */; };
+		D472B17C81637E5A348997920034CC8E /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA4312DB098DFAF17D0685780DCE446 /* ImagePrefetcher.swift */; };
+		D77ACFDB18DB353983E3F9A6B4DC7E56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72913984B3E4B2AD01F71E405D688036 /* Foundation.framework */; };
+		D7CA6AA732E2A4D7BBF1AE17AF6FADCE /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05A430995C180E3B9FA525F724EF438 /* AkiraTextField.swift */; };
+		E0DC63E3FEA808360D265AC495098144 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EE325348D4086D312ED07FFCB5B4E3 /* String+MD5.swift */; };
+		E84966064FC1C0803BE923842202ACEF /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510708DB43AB55432F43D96143AA8D93 /* Placeholder.swift */; };
+		ECD2D775DC81FF10D6EEC206A591D4B6 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCA0135B06D8DE89DA8B1B735D4E6DF /* YokoTextField.swift */; };
+		EDA1538A2F0306FB41C6DD2C457F0B48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72913984B3E4B2AD01F71E405D688036 /* Foundation.framework */; };
+		F89B7F00661CE085483045B4E5D9E9A4 /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2B578846C0014259651A4C3D24A541 /* TextFieldEffects.swift */; };
+		F949B79CF0DE1A67721B764EC95D20AD /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E24BA4C09666438FEDFEA2AE872F1D /* Kingfisher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5B2B4A4633B409489B249710AC6CE460 /* PBXContainerItemProxy */ = {
+		12FB2C6903B42FD9E067DB2884F5B78D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 605B81A6B734064EC37F3250A9A1EB4E;
-			remoteInfo = TextFieldEffects;
+			remoteGlobalIDString = 6F712943B3C5592E82604940D11CE08A;
+			remoteInfo = Kingfisher;
 		};
-		E071F7B3A8CF7762CC088084CBE76CA7 /* PBXContainerItemProxy */ = {
+		4DFBE170D5A5063D9BF99D517DAB74AB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B039E04AFEC4DF328C1D87EF19A74D31;
+			remoteGlobalIDString = 58444BE8C984C3A399130D0F654F2201;
 			remoteInfo = SimpleButton;
+		};
+		DCB7052F7CD35559C2E84ADF786C0E80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB84A9D182D11724A0F10AA88BDAD511;
+			remoteInfo = TextFieldEffects;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1715170344B9B0BA7B21A8964AB4222F /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		02EF483EA4F3B2248BC6F0669A9971AF /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/ImageProcessor.swift; sourceTree = "<group>"; };
+		046068E80AA3B41F5600E146784152F9 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09E5AC9DE62C4B5AF82F82DD59A3AB4F /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/AnimatedImageView.swift; sourceTree = "<group>"; };
+		0D2B578846C0014259651A4C3D24A541 /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
+		169DF91B9EB1AD6BA5A55E9632FD1F89 /* SimpleButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleButton-dummy.m"; sourceTree = "<group>"; };
 		17F62132E6914890BE69A86C22DCF3C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		187748B052B12B2519D9E9C92FA4F53C /* SimpleButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleButton-dummy.m"; sourceTree = "<group>"; };
-		1E3376BB80FE3263B5945CF8A8ABC104 /* SimpleButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleButton-prefix.pch"; sourceTree = "<group>"; };
 		2002469DD8388A7AF8E67F1B2634D834 /* Pods-JSONParsing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSONParsing-dummy.m"; sourceTree = "<group>"; };
-		293F575E2044857FAC1B1A56390FA936 /* SimpleButtonStateChangeValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleButtonStateChangeValue.swift; path = SimpleButton/SimpleButtonStateChangeValue.swift; sourceTree = "<group>"; };
+		21F72750EDAAB14E8FDB2891B5551F55 /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		22F79A7948F9920CBD7F545A353D7898 /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/CacheSerializer.swift; sourceTree = "<group>"; };
+		233EDEC76A54E534F9E5C0EE34E3C338 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
 		2C28014C0C405E18AE7A89611FE8E439 /* Pods-JSONParsing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JSONParsing.modulemap"; sourceTree = "<group>"; };
-		351D4DD98430AB8E2F04FC5AD75E20F3 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
-		35EDB57302B5322D57B5E81953B8C974 /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
-		3620FDA97CC455547281581D327729A0 /* Pods_JSONParsing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSONParsing.framework; path = "Pods-JSONParsing.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C63839CBD2283EDB3321B2F3DA63404 /* SimpleButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleButton.xcconfig; sourceTree = "<group>"; };
-		4CBE702E00570E394ABACCE05D967FB2 /* SimpleButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SimpleButton.modulemap; sourceTree = "<group>"; };
-		4E3C1085E5106D89AE59A7F82D48CC71 /* SimpleButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleButton.framework; path = SimpleButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F2EE5DDFD82F3B6759829AB7137677F /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		36D20E14E12F674839E0DF6472EF21C8 /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
+		3CA6446A65D560849DAD216EE7EF149F /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
+		43F16344AF4B58318902E1F2DBA4AB13 /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		44149E6E611A85B7953AC9CD61865402 /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/ImageTransition.swift; sourceTree = "<group>"; };
+		45E24BA4C09666438FEDFEA2AE872F1D /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/Kingfisher.swift; sourceTree = "<group>"; };
+		49F004D3E6B3A3B6FED3E492FA2A58B5 /* SimpleButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleButton-umbrella.h"; sourceTree = "<group>"; };
+		4E673C3C79E760535EC65F3EEA63A982 /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/RequestModifier.swift; sourceTree = "<group>"; };
+		4F80C5E837BC61F1863392815B472B9E /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
+		510708DB43AB55432F43D96143AA8D93 /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = Sources/Placeholder.swift; sourceTree = "<group>"; };
+		54171F5F4716F78828AE45F29C7E250E /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
 		586F121F03B7D0E2AE06FDB08A0BB0EE /* Pods-JSONParsing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSONParsing-umbrella.h"; sourceTree = "<group>"; };
-		64BAA4EB5F4651A2AAB5892D46100A7A /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
-		6564C029824F23ABE6DF8BC0B226E8E2 /* SimpleButtonControlState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleButtonControlState.swift; path = SimpleButton/SimpleButtonControlState.swift; sourceTree = "<group>"; };
-		6F1F1C1644EF163601591BA0FE4FAEB2 /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C0D6AFA3F3187DDE7D3CC072308835 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9CE8E98E2A9554CC5162AF1CE30612 /* Kingfisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kingfisher.h; path = Sources/Kingfisher.h; sourceTree = "<group>"; };
+		634995CDBE6E2EA6B406D9277A108091 /* SimpleButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SimpleButton.modulemap; sourceTree = "<group>"; };
+		66A4D6DF5721D0CEF311A70D0E33ADFF /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/ImageCache.swift; sourceTree = "<group>"; };
+		6BFFB04B24D7EBA4B7F9B0579C54B0F3 /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
 		6FBAA98B98C7A0674A39DD781260CDCF /* Pods-JSONParsing-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSONParsing-acknowledgements.plist"; sourceTree = "<group>"; };
+		7280C0180831574DA0670D64B47B5A3B /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
+		72913984B3E4B2AD01F71E405D688036 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		72D2B73066874C81E532982E84CEF133 /* Pods-JSONParsing-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSONParsing-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7BAEBBF2C5ABB03B764D2CB6ADF1F762 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		7A96AD26DB90DA735D4E936AEB6D0AA0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D7FD1C24965BFCB8C1293CEF5D4F36 /* SimpleButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleButton.framework; path = SimpleButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8337ECC9CEFF378BF7FF994485D1BEA2 /* Pods-JSONParsing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSONParsing.debug.xcconfig"; sourceTree = "<group>"; };
+		8708A643227430915E983AB3D5DDB7C1 /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DCA0135B06D8DE89DA8B1B735D4E6DF /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		8E5AEE1D32737A33A1996BFC5C718563 /* SimpleButtonControlState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleButtonControlState.swift; path = SimpleButton/SimpleButtonControlState.swift; sourceTree = "<group>"; };
 		8FEE5FA96449D5591081D93D55B4AAA9 /* Pods-JSONParsing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSONParsing.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9510B33B9FB4AF43B4C82FC2F08B0E14 /* Pods-JSONParsing-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSONParsing-resources.sh"; sourceTree = "<group>"; };
-		98BC342ECA535B3FDF0357DF83CD0159 /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
-		9B0FFDEC058B1EB37A05D418BF3D2162 /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
-		A43BFC5316E597DF4ADE1561C86EF74B /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
-		A5CB40E3289E013F13685F283954756B /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
-		B29A44F153F46A917431CC0438033098 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE75AF8BC1F0FBE3C286091868C7655E /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
-		C24FEF425996FCFF947A8549322896BE /* SimpleButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleButton-umbrella.h"; sourceTree = "<group>"; };
-		C4E253E38889350D3A7E3591697AA790 /* SimpleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleButton.swift; path = SimpleButton/SimpleButton.swift; sourceTree = "<group>"; };
-		C75C7298EE0A6F2C38EC931FADD2FA4B /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DAC9750F43209B0E2701632C0A6E19CD /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
-		DC9F7C5579E4DFB9A854FECBFA2E6DD8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E125D0DED6091621A640A55434C6EFDD /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
-		F082FA45BC12AC37C89CE5889EFB5263 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		9B014DA76E671EC84DE3F50EFC36E194 /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/Resource.swift; sourceTree = "<group>"; };
+		9E0267AA42F093BCA14F281D1BF6EF1B /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		A0F65439D79917D87407088A4B3C1C71 /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
+		A92DB37CA7D5EA7DEE0366B7C3D5248E /* FormatIndicatedCacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormatIndicatedCacheSerializer.swift; path = Sources/FormatIndicatedCacheSerializer.swift; sourceTree = "<group>"; };
+		ABFB62AD64EB8B0A495A0487EFFE5B97 /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Kingfisher.modulemap; sourceTree = "<group>"; };
+		AD142C8C75FB87BA89C931B70787033F /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/ImageDownloader.swift; sourceTree = "<group>"; };
+		AFD9DEBBB8C58B189A536C60DCF93C3F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B02B515EDA2727445BF537836C0EDA24 /* SimpleButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleButton-prefix.pch"; sourceTree = "<group>"; };
+		B0FDB464AE97F474FDA457560A29654B /* Kingfisher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.xcconfig; sourceTree = "<group>"; };
+		B2EE325348D4086D312ED07FFCB5B4E3 /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/String+MD5.swift"; sourceTree = "<group>"; };
+		B6A3FAAC5321DCD31C2F3AF3ED00EF9A /* Pods_JSONParsing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSONParsing.framework; path = "Pods-JSONParsing.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70924C5CB1946E4423D51C506646F8D /* SimpleButtonStateChangeValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleButtonStateChangeValue.swift; path = SimpleButton/SimpleButtonStateChangeValue.swift; sourceTree = "<group>"; };
+		B87C052D1272F2EDF147335D8A1CC6BF /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
+		B8BD991EA54FDF09E3327854E9639A7E /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Indicator.swift; sourceTree = "<group>"; };
+		C42482B542C58036EF8DF7421BC78C93 /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		D01C7261D3076E86AF12C028DE1FA782 /* ImageModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageModifier.swift; path = Sources/ImageModifier.swift; sourceTree = "<group>"; };
+		D8CD59928C700D117B3DDDEF64DD289C /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/KingfisherManager.swift; sourceTree = "<group>"; };
+		DB8E134B77CA8970639DCBCB1B55E108 /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		DBD9250DC4A58345412159A0804FAF0B /* SimpleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleButton.swift; path = SimpleButton/SimpleButton.swift; sourceTree = "<group>"; };
+		DE3BF71955011E723B8F3A799784A070 /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
+		E05B767020253E748CD8CE0358CE8ADB /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		E782310F5CA2DFC6C5E2D92788DC192D /* ThreadHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadHelper.swift; path = Sources/ThreadHelper.swift; sourceTree = "<group>"; };
+		E8E6E2DE788F7DACDC1EBE8486D52B08 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
+		EEA4312DB098DFAF17D0685780DCE446 /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/ImagePrefetcher.swift; sourceTree = "<group>"; };
+		F0439E56E49D290241679BCB2178883A /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
+		F05A430995C180E3B9FA525F724EF438 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		F1C0B86E434556F59ADE64B4B9B5FB43 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+		F2BC92046CF13E2754121A93BE370983 /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		F46EFC5CDAF57A92A7B136FFD3525675 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		F88EFF5E0F62A8BDE2A3D38E4EB66195 /* SimpleButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleButton.xcconfig; sourceTree = "<group>"; };
 		FA1C74E13E39BDC457B6BEF554C4E919 /* Pods-JSONParsing-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSONParsing-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9962D59699C931C81AD53F4EB9CAD944 /* Frameworks */ = {
+		1C47CBA34636734CEC4A43A04CB7FF76 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B10B131A4B553DA679EC1841FE619C49 /* Foundation.framework in Frameworks */,
+				D77ACFDB18DB353983E3F9A6B4DC7E56 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A895D5720FAE54EE8D2B3D54011E6A14 /* Frameworks */ = {
+		92A4EEC7CF9C40F5A8E34559A0EAEBAF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12902BC8C8C4BE9AC38632AFBC3C84C6 /* Foundation.framework in Frameworks */,
+				2F9BCB31A45C653EE61E50CF977CCA7F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2ADB49CE7757AF2F6E3EAD946D1FCB0 /* Frameworks */ = {
+		C0B9722E352CF90C920286E6F029D3C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7668184E2EDD69ED3D89B61CA72981FE /* Foundation.framework in Frameworks */,
+				52416A6AC7387ECACCC45596498D96AD /* CFNetwork.framework in Frameworks */,
+				0CA6357476373C221D44C498AA1D65FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26B0E7A09EB7D13807208F124D0E43A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA1538A2F0306FB41C6DD2C457F0B48 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		12F226E82247A6796FA6AC7F019D0366 /* Pods */ = {
+		0019BD34913C49BC9759C17188181A6F /* Kingfisher */ = {
 			isa = PBXGroup;
 			children = (
-				A492D4A2516B676205D6E766A5756CE9 /* SimpleButton */,
-				1C193E2BDDA6F120FE1A565B384E56E1 /* TextFieldEffects */,
+				09E5AC9DE62C4B5AF82F82DD59A3AB4F /* AnimatedImageView.swift */,
+				22F79A7948F9920CBD7F545A353D7898 /* CacheSerializer.swift */,
+				4F80C5E837BC61F1863392815B472B9E /* Filter.swift */,
+				A92DB37CA7D5EA7DEE0366B7C3D5248E /* FormatIndicatedCacheSerializer.swift */,
+				B87C052D1272F2EDF147335D8A1CC6BF /* Image.swift */,
+				66A4D6DF5721D0CEF311A70D0E33ADFF /* ImageCache.swift */,
+				AD142C8C75FB87BA89C931B70787033F /* ImageDownloader.swift */,
+				D01C7261D3076E86AF12C028DE1FA782 /* ImageModifier.swift */,
+				EEA4312DB098DFAF17D0685780DCE446 /* ImagePrefetcher.swift */,
+				02EF483EA4F3B2248BC6F0669A9971AF /* ImageProcessor.swift */,
+				44149E6E611A85B7953AC9CD61865402 /* ImageTransition.swift */,
+				F1C0B86E434556F59ADE64B4B9B5FB43 /* ImageView+Kingfisher.swift */,
+				B8BD991EA54FDF09E3327854E9639A7E /* Indicator.swift */,
+				5A9CE8E98E2A9554CC5162AF1CE30612 /* Kingfisher.h */,
+				45E24BA4C09666438FEDFEA2AE872F1D /* Kingfisher.swift */,
+				D8CD59928C700D117B3DDDEF64DD289C /* KingfisherManager.swift */,
+				36D20E14E12F674839E0DF6472EF21C8 /* KingfisherOptionsInfo.swift */,
+				510708DB43AB55432F43D96143AA8D93 /* Placeholder.swift */,
+				4E673C3C79E760535EC65F3EEA63A982 /* RequestModifier.swift */,
+				9B014DA76E671EC84DE3F50EFC36E194 /* Resource.swift */,
+				B2EE325348D4086D312ED07FFCB5B4E3 /* String+MD5.swift */,
+				E782310F5CA2DFC6C5E2D92788DC192D /* ThreadHelper.swift */,
+				E8E6E2DE788F7DACDC1EBE8486D52B08 /* UIButton+Kingfisher.swift */,
+				4B46CF376C1DE730BAF0151297D3E475 /* Support Files */,
+			);
+			name = Kingfisher;
+			path = Kingfisher;
+			sourceTree = "<group>";
+		};
+		0CFF8D860BAA710284D7E3B455F3E0E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A96AD26DB90DA735D4E936AEB6D0AA0 /* Info.plist */,
+				3CA6446A65D560849DAD216EE7EF149F /* TextFieldEffects.modulemap */,
+				DE3BF71955011E723B8F3A799784A070 /* TextFieldEffects.xcconfig */,
+				9E0267AA42F093BCA14F281D1BF6EF1B /* TextFieldEffects-dummy.m */,
+				21F72750EDAAB14E8FDB2891B5551F55 /* TextFieldEffects-prefix.pch */,
+				E05B767020253E748CD8CE0358CE8ADB /* TextFieldEffects-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TextFieldEffects";
+			sourceTree = "<group>";
+		};
+		1ADF3A3CA48E45A2859D58E40AC6879B /* SimpleButton */ = {
+			isa = PBXGroup;
+			children = (
+				DBD9250DC4A58345412159A0804FAF0B /* SimpleButton.swift */,
+				8E5AEE1D32737A33A1996BFC5C718563 /* SimpleButtonControlState.swift */,
+				B70924C5CB1946E4423D51C506646F8D /* SimpleButtonStateChangeValue.swift */,
+				997449E2103932D2AC9F11901E2CE252 /* Support Files */,
+			);
+			name = SimpleButton;
+			path = SimpleButton;
+			sourceTree = "<group>";
+		};
+		3CDFF7549E0654748DFF77628D756EB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0019BD34913C49BC9759C17188181A6F /* Kingfisher */,
+				1ADF3A3CA48E45A2859D58E40AC6879B /* SimpleButton */,
+				4E700B0E90989B57F07E121AEF41FE2F /* TextFieldEffects */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		1C193E2BDDA6F120FE1A565B384E56E1 /* TextFieldEffects */ = {
+		3DC75C8869B42AB93D04871325A0707E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				7BAEBBF2C5ABB03B764D2CB6ADF1F762 /* AkiraTextField.swift */,
-				F082FA45BC12AC37C89CE5889EFB5263 /* HoshiTextField.swift */,
-				A5CB40E3289E013F13685F283954756B /* IsaoTextField.swift */,
-				1715170344B9B0BA7B21A8964AB4222F /* JiroTextField.swift */,
-				35EDB57302B5322D57B5E81953B8C974 /* KaedeTextField.swift */,
-				C75C7298EE0A6F2C38EC931FADD2FA4B /* MadokaTextField.swift */,
-				DAC9750F43209B0E2701632C0A6E19CD /* MinoruTextField.swift */,
-				98BC342ECA535B3FDF0357DF83CD0159 /* TextFieldEffects.swift */,
-				9B0FFDEC058B1EB37A05D418BF3D2162 /* YokoTextField.swift */,
-				351D4DD98430AB8E2F04FC5AD75E20F3 /* YoshikoTextField.swift */,
-				928F64D7F7EA42DF1C897DAC1992278E /* Support Files */,
+				F46EFC5CDAF57A92A7B136FFD3525675 /* CFNetwork.framework */,
+				72913984B3E4B2AD01F71E405D688036 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DC75C8869B42AB93D04871325A0707E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B46CF376C1DE730BAF0151297D3E475 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFD9DEBBB8C58B189A536C60DCF93C3F /* Info.plist */,
+				ABFB62AD64EB8B0A495A0487EFFE5B97 /* Kingfisher.modulemap */,
+				B0FDB464AE97F474FDA457560A29654B /* Kingfisher.xcconfig */,
+				7280C0180831574DA0670D64B47B5A3B /* Kingfisher-dummy.m */,
+				F0439E56E49D290241679BCB2178883A /* Kingfisher-prefix.pch */,
+				A0F65439D79917D87407088A4B3C1C71 /* Kingfisher-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Kingfisher";
+			sourceTree = "<group>";
+		};
+		4E700B0E90989B57F07E121AEF41FE2F /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				F05A430995C180E3B9FA525F724EF438 /* AkiraTextField.swift */,
+				233EDEC76A54E534F9E5C0EE34E3C338 /* HoshiTextField.swift */,
+				C42482B542C58036EF8DF7421BC78C93 /* IsaoTextField.swift */,
+				F2BC92046CF13E2754121A93BE370983 /* JiroTextField.swift */,
+				DB8E134B77CA8970639DCBCB1B55E108 /* KaedeTextField.swift */,
+				6BFFB04B24D7EBA4B7F9B0579C54B0F3 /* MadokaTextField.swift */,
+				43F16344AF4B58318902E1F2DBA4AB13 /* MinoruTextField.swift */,
+				0D2B578846C0014259651A4C3D24A541 /* TextFieldEffects.swift */,
+				8DCA0135B06D8DE89DA8B1B735D4E6DF /* YokoTextField.swift */,
+				54171F5F4716F78828AE45F29C7E250E /* YoshikoTextField.swift */,
+				0CFF8D860BAA710284D7E3B455F3E0E3 /* Support Files */,
 			);
 			name = TextFieldEffects;
 			path = TextFieldEffects;
-			sourceTree = "<group>";
-		};
-		573542E34A3049654A5C4BE9908025A1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DC9F7C5579E4DFB9A854FECBFA2E6DD8 /* Info.plist */,
-				4CBE702E00570E394ABACCE05D967FB2 /* SimpleButton.modulemap */,
-				4C63839CBD2283EDB3321B2F3DA63404 /* SimpleButton.xcconfig */,
-				187748B052B12B2519D9E9C92FA4F53C /* SimpleButton-dummy.m */,
-				1E3376BB80FE3263B5945CF8A8ABC104 /* SimpleButton-prefix.pch */,
-				C24FEF425996FCFF947A8549322896BE /* SimpleButton-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SimpleButton";
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				12F226E82247A6796FA6AC7F019D0366 /* Pods */,
-				9443C3F1D454214DEB38E9E84032D04F /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				3CDFF7549E0654748DFF77628D756EB5 /* Pods */,
+				F86E5B71C43DB017663C2D19075EF618 /* Products */,
 				D46BF617AA43B085A63A392B16770EE4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		928F64D7F7EA42DF1C897DAC1992278E /* Support Files */ = {
+		997449E2103932D2AC9F11901E2CE252 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B29A44F153F46A917431CC0438033098 /* Info.plist */,
-				E125D0DED6091621A640A55434C6EFDD /* TextFieldEffects.modulemap */,
-				BE75AF8BC1F0FBE3C286091868C7655E /* TextFieldEffects.xcconfig */,
-				4F2EE5DDFD82F3B6759829AB7137677F /* TextFieldEffects-dummy.m */,
-				A43BFC5316E597DF4ADE1561C86EF74B /* TextFieldEffects-prefix.pch */,
-				64BAA4EB5F4651A2AAB5892D46100A7A /* TextFieldEffects-umbrella.h */,
+				59C0D6AFA3F3187DDE7D3CC072308835 /* Info.plist */,
+				634995CDBE6E2EA6B406D9277A108091 /* SimpleButton.modulemap */,
+				F88EFF5E0F62A8BDE2A3D38E4EB66195 /* SimpleButton.xcconfig */,
+				169DF91B9EB1AD6BA5A55E9632FD1F89 /* SimpleButton-dummy.m */,
+				B02B515EDA2727445BF537836C0EDA24 /* SimpleButton-prefix.pch */,
+				49F004D3E6B3A3B6FED3E492FA2A58B5 /* SimpleButton-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/TextFieldEffects";
-			sourceTree = "<group>";
-		};
-		9443C3F1D454214DEB38E9E84032D04F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3620FDA97CC455547281581D327729A0 /* Pods_JSONParsing.framework */,
-				4E3C1085E5106D89AE59A7F82D48CC71 /* SimpleButton.framework */,
-				6F1F1C1644EF163601591BA0FE4FAEB2 /* TextFieldEffects.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A492D4A2516B676205D6E766A5756CE9 /* SimpleButton */ = {
-			isa = PBXGroup;
-			children = (
-				C4E253E38889350D3A7E3591697AA790 /* SimpleButton.swift */,
-				6564C029824F23ABE6DF8BC0B226E8E2 /* SimpleButtonControlState.swift */,
-				293F575E2044857FAC1B1A56390FA936 /* SimpleButtonStateChangeValue.swift */,
-				573542E34A3049654A5C4BE9908025A1 /* Support Files */,
-			);
-			name = SimpleButton;
-			path = SimpleButton;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
-			);
-			name = Frameworks;
+			path = "../Target Support Files/SimpleButton";
 			sourceTree = "<group>";
 		};
 		D46BF617AA43B085A63A392B16770EE4 /* Targets Support Files */ = {
@@ -250,79 +362,83 @@
 			path = "Target Support Files/Pods-JSONParsing";
 			sourceTree = "<group>";
 		};
+		F86E5B71C43DB017663C2D19075EF618 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046068E80AA3B41F5600E146784152F9 /* Kingfisher.framework */,
+				B6A3FAAC5321DCD31C2F3AF3ED00EF9A /* Pods_JSONParsing.framework */,
+				82D7FD1C24965BFCB8C1293CEF5D4F36 /* SimpleButton.framework */,
+				8708A643227430915E983AB3D5DDB7C1 /* TextFieldEffects.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2B8D0CD9301883749259DD976F6076E6 /* Headers */ = {
+		4CAAB1A8C390A4F5E188261AB1B67D62 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E58B8850DC7B2736C12A58BFCA83F08 /* TextFieldEffects-umbrella.h in Headers */,
+				44ABE9FA5117E8D1E486002582AA99B1 /* Pods-JSONParsing-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3327B05368FA1E5B0DB0C75CDBAE296E /* Headers */ = {
+		5E36E78614C52EAAB61D1C0D7888336E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F0785E7F6CE2787274AA6D86B2B3F7E /* Pods-JSONParsing-umbrella.h in Headers */,
+				4A401ACC0E84CB848415C86ED7365310 /* TextFieldEffects-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92FE8D97C61E5A5D9B24045DD72B12FB /* Headers */ = {
+		84676F7D46FF521291CDEB2AB04A454C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65BB45AA19863E4EF008F5A3DB9DB22F /* SimpleButton-umbrella.h in Headers */,
+				2F288ED3641B2B4775884C462AE377E6 /* Kingfisher-umbrella.h in Headers */,
+				5B5D8AE167BD8E304CE474A9B8DBA2B4 /* Kingfisher.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FE5F0707771BD4A0E79237D3B5A6B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360BFB0640A8F769B0EA10883F26EA44 /* SimpleButton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		605B81A6B734064EC37F3250A9A1EB4E /* TextFieldEffects */ = {
+		42DD8C6F3B992BAB3A98287501E84C88 /* Pods-JSONParsing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA4B5B51102E58968DC4E4461763C3B0 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
+			buildConfigurationList = 24B0094C24CF873E8E9B4C6FFB23A91D /* Build configuration list for PBXNativeTarget "Pods-JSONParsing" */;
 			buildPhases = (
-				DEF1F1705C75A18B26FDE348C4BCF131 /* Sources */,
-				A895D5720FAE54EE8D2B3D54011E6A14 /* Frameworks */,
-				2B8D0CD9301883749259DD976F6076E6 /* Headers */,
+				D2225C1E8E620B0DAB917B075D28E10B /* Sources */,
+				C26B0E7A09EB7D13807208F124D0E43A /* Frameworks */,
+				4CAAB1A8C390A4F5E188261AB1B67D62 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = TextFieldEffects;
-			productName = TextFieldEffects;
-			productReference = 6F1F1C1644EF163601591BA0FE4FAEB2 /* TextFieldEffects.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		671BD808DCE031B99C472693C3E7FD6F /* Pods-JSONParsing */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 91EF662CFA70BD881562AC27316FAE41 /* Build configuration list for PBXNativeTarget "Pods-JSONParsing" */;
-			buildPhases = (
-				77BA946E9AB6DB7F429CF2690AE652C0 /* Sources */,
-				9962D59699C931C81AD53F4EB9CAD944 /* Frameworks */,
-				3327B05368FA1E5B0DB0C75CDBAE296E /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				88D3057B8470638D456BABAD6F794A54 /* PBXTargetDependency */,
-				0DD7C672E2383581AAC62B1E469E9397 /* PBXTargetDependency */,
+				A1B2926CC55014F3CA420A34DA446D12 /* PBXTargetDependency */,
+				3F4B09663884B217491C569E5C8B1D8D /* PBXTargetDependency */,
+				ECFDCE6AEF7443865040E4BFB3F7D682 /* PBXTargetDependency */,
 			);
 			name = "Pods-JSONParsing";
 			productName = "Pods-JSONParsing";
-			productReference = 3620FDA97CC455547281581D327729A0 /* Pods_JSONParsing.framework */;
+			productReference = B6A3FAAC5321DCD31C2F3AF3ED00EF9A /* Pods_JSONParsing.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B039E04AFEC4DF328C1D87EF19A74D31 /* SimpleButton */ = {
+		58444BE8C984C3A399130D0F654F2201 /* SimpleButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26B1F85594B8E5EB41808B75A5A76577 /* Build configuration list for PBXNativeTarget "SimpleButton" */;
+			buildConfigurationList = B77DBB94665922FAE79D440A9A3630F4 /* Build configuration list for PBXNativeTarget "SimpleButton" */;
 			buildPhases = (
-				3809D3CCC007E2EB6C77CDD3D1AF9246 /* Sources */,
-				F2ADB49CE7757AF2F6E3EAD946D1FCB0 /* Frameworks */,
-				92FE8D97C61E5A5D9B24045DD72B12FB /* Headers */,
+				F8F9835492D66A8BAD6C34FE479409EF /* Sources */,
+				1C47CBA34636734CEC4A43A04CB7FF76 /* Frameworks */,
+				A5FE5F0707771BD4A0E79237D3B5A6B5 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -330,7 +446,41 @@
 			);
 			name = SimpleButton;
 			productName = SimpleButton;
-			productReference = 4E3C1085E5106D89AE59A7F82D48CC71 /* SimpleButton.framework */;
+			productReference = 82D7FD1C24965BFCB8C1293CEF5D4F36 /* SimpleButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6F712943B3C5592E82604940D11CE08A /* Kingfisher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C1E4CEFB2390CBE75E70BAC20F44BBF /* Build configuration list for PBXNativeTarget "Kingfisher" */;
+			buildPhases = (
+				028CF0EB906C10D636EC909AF25FA2CF /* Sources */,
+				C0B9722E352CF90C920286E6F029D3C0 /* Frameworks */,
+				84676F7D46FF521291CDEB2AB04A454C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kingfisher;
+			productName = Kingfisher;
+			productReference = 046068E80AA3B41F5600E146784152F9 /* Kingfisher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB84A9D182D11724A0F10AA88BDAD511 /* TextFieldEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0D0DEE790130D4A7B379A65CF23E7BF /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
+			buildPhases = (
+				8FF9D20C20D496AE8ED3BF5CC72B1C2F /* Sources */,
+				92A4EEC7CF9C40F5A8E34559A0EAEBAF /* Frameworks */,
+				5E36E78614C52EAAB61D1C0D7888336E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldEffects;
+			productName = TextFieldEffects;
+			productReference = 8708A643227430915E983AB3D5DDB7C1 /* TextFieldEffects.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -339,7 +489,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -350,95 +500,184 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9443C3F1D454214DEB38E9E84032D04F /* Products */;
+			productRefGroup = F86E5B71C43DB017663C2D19075EF618 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				671BD808DCE031B99C472693C3E7FD6F /* Pods-JSONParsing */,
-				B039E04AFEC4DF328C1D87EF19A74D31 /* SimpleButton */,
-				605B81A6B734064EC37F3250A9A1EB4E /* TextFieldEffects */,
+				6F712943B3C5592E82604940D11CE08A /* Kingfisher */,
+				42DD8C6F3B992BAB3A98287501E84C88 /* Pods-JSONParsing */,
+				58444BE8C984C3A399130D0F654F2201 /* SimpleButton */,
+				FB84A9D182D11724A0F10AA88BDAD511 /* TextFieldEffects */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3809D3CCC007E2EB6C77CDD3D1AF9246 /* Sources */ = {
+		028CF0EB906C10D636EC909AF25FA2CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AAF13E7F2F9C6EAF81E3A17A3621862 /* SimpleButton-dummy.m in Sources */,
-				DEE3A5F1284DB38DC8129CD19E9FB1BE /* SimpleButton.swift in Sources */,
-				545D2CC3AC1B133C1A98BDEABD9E88F9 /* SimpleButtonControlState.swift in Sources */,
-				F5F74812EFB3E6C25185054E2805CC9E /* SimpleButtonStateChangeValue.swift in Sources */,
+				09A0DDE1726C527699A0C0F53482505B /* AnimatedImageView.swift in Sources */,
+				AA276321E3A96169B102E2B4EFF4F02D /* CacheSerializer.swift in Sources */,
+				5AC063843F5C822D8E0DAD049DB2172C /* Filter.swift in Sources */,
+				171D92BAB767E217703001B86CAF5E9E /* FormatIndicatedCacheSerializer.swift in Sources */,
+				11ECC5C9BE0D9AE6AE8079882CB5AF75 /* Image.swift in Sources */,
+				270728363BC4B690C40E53B053710684 /* ImageCache.swift in Sources */,
+				0F755ADCEAA8BF40FF7BECCBD8B5310B /* ImageDownloader.swift in Sources */,
+				3DA9227F3FD83241A4D4BA9DBAE405AD /* ImageModifier.swift in Sources */,
+				D472B17C81637E5A348997920034CC8E /* ImagePrefetcher.swift in Sources */,
+				923EB9487045D3297D9932193420D597 /* ImageProcessor.swift in Sources */,
+				3845689DFB2BE4BFAD2D3C2733D7054A /* ImageTransition.swift in Sources */,
+				047C4D945343F46AFF1273DE29F8A290 /* ImageView+Kingfisher.swift in Sources */,
+				A8096F51DB82ADD9F002809E064F98F9 /* Indicator.swift in Sources */,
+				BCDA6101487ADAF8CE25A92727B57C24 /* Kingfisher-dummy.m in Sources */,
+				F949B79CF0DE1A67721B764EC95D20AD /* Kingfisher.swift in Sources */,
+				6AE8DA783077285DFA7F210F4E779A65 /* KingfisherManager.swift in Sources */,
+				7F0B3111D41B314575EC5A957DAFF2BA /* KingfisherOptionsInfo.swift in Sources */,
+				E84966064FC1C0803BE923842202ACEF /* Placeholder.swift in Sources */,
+				D205E953E843C195D4D27A6960483863 /* RequestModifier.swift in Sources */,
+				12CF563678704ED1369F793FA30AAEA9 /* Resource.swift in Sources */,
+				E0DC63E3FEA808360D265AC495098144 /* String+MD5.swift in Sources */,
+				D42E1C9C953771026150086BF7BEBD2B /* ThreadHelper.swift in Sources */,
+				7AE672DC4B32AF19F80EF28AD5096EDE /* UIButton+Kingfisher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		77BA946E9AB6DB7F429CF2690AE652C0 /* Sources */ = {
+		8FF9D20C20D496AE8ED3BF5CC72B1C2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F0504E80CBA12C10CE0941DDF7AE289 /* Pods-JSONParsing-dummy.m in Sources */,
+				D7CA6AA732E2A4D7BBF1AE17AF6FADCE /* AkiraTextField.swift in Sources */,
+				3F460CD4398E8D601C1B35DD5CEB83A1 /* HoshiTextField.swift in Sources */,
+				6483E0D98B6D494DEB3E6601BF7DC9DF /* IsaoTextField.swift in Sources */,
+				76D864DE274CDF35D18B4461B9377985 /* JiroTextField.swift in Sources */,
+				6275E2AC7E3B6E651C2975B3A7F83709 /* KaedeTextField.swift in Sources */,
+				7923098A57D9A4AB4823945E2AF6026F /* MadokaTextField.swift in Sources */,
+				CF26A7E3464D9E7948A06A967B3C0F57 /* MinoruTextField.swift in Sources */,
+				741851294FB8098B13137B081DF52292 /* TextFieldEffects-dummy.m in Sources */,
+				F89B7F00661CE085483045B4E5D9E9A4 /* TextFieldEffects.swift in Sources */,
+				ECD2D775DC81FF10D6EEC206A591D4B6 /* YokoTextField.swift in Sources */,
+				C963D32EB410D139E74BD2D5DD172DE9 /* YoshikoTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEF1F1705C75A18B26FDE348C4BCF131 /* Sources */ = {
+		D2225C1E8E620B0DAB917B075D28E10B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A90A60E2A199992401F2D6535B02575 /* AkiraTextField.swift in Sources */,
-				5882269EFC66D7E20B3E2BBF098B9954 /* HoshiTextField.swift in Sources */,
-				BBC4AB201BE1D2EE45DA84B96D27FB35 /* IsaoTextField.swift in Sources */,
-				F5EC65EF4D926804769803F21628CF3F /* JiroTextField.swift in Sources */,
-				2F4D66B595B33A9319AFA2D083B7FAFA /* KaedeTextField.swift in Sources */,
-				788AA16DF49B396C645E162F6C040911 /* MadokaTextField.swift in Sources */,
-				A31E69834DEF0B497568BFF1D21C12E7 /* MinoruTextField.swift in Sources */,
-				08680B530EE6A27DF5EA891A06150DF4 /* TextFieldEffects-dummy.m in Sources */,
-				A26444283A2A8FF1C54C8BBCDCC8D74D /* TextFieldEffects.swift in Sources */,
-				D86AB44327A943C64E00BCF229A3448A /* YokoTextField.swift in Sources */,
-				289A8D1B10938EFF9A6B088C1FC591E7 /* YoshikoTextField.swift in Sources */,
+				8B9FEF8C6238D704450E8B631D0CBE26 /* Pods-JSONParsing-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F9835492D66A8BAD6C34FE479409EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7FF624941B90AFD03F196091975312 /* SimpleButton-dummy.m in Sources */,
+				0C419B96B1C1E5229A1546D1BD3E078E /* SimpleButton.swift in Sources */,
+				CAD9EEB2935162DDE680FE40FC62AF11 /* SimpleButtonControlState.swift in Sources */,
+				C259CD1088BB19AC1086836A63CEBA93 /* SimpleButtonStateChangeValue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0DD7C672E2383581AAC62B1E469E9397 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TextFieldEffects;
-			target = 605B81A6B734064EC37F3250A9A1EB4E /* TextFieldEffects */;
-			targetProxy = 5B2B4A4633B409489B249710AC6CE460 /* PBXContainerItemProxy */;
-		};
-		88D3057B8470638D456BABAD6F794A54 /* PBXTargetDependency */ = {
+		3F4B09663884B217491C569E5C8B1D8D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SimpleButton;
-			target = B039E04AFEC4DF328C1D87EF19A74D31 /* SimpleButton */;
-			targetProxy = E071F7B3A8CF7762CC088084CBE76CA7 /* PBXContainerItemProxy */;
+			target = 58444BE8C984C3A399130D0F654F2201 /* SimpleButton */;
+			targetProxy = 4DFBE170D5A5063D9BF99D517DAB74AB /* PBXContainerItemProxy */;
+		};
+		A1B2926CC55014F3CA420A34DA446D12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kingfisher;
+			target = 6F712943B3C5592E82604940D11CE08A /* Kingfisher */;
+			targetProxy = 12FB2C6903B42FD9E067DB2884F5B78D /* PBXContainerItemProxy */;
+		};
+		ECFDCE6AEF7443865040E4BFB3F7D682 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TextFieldEffects;
+			target = FB84A9D182D11724A0F10AA88BDAD511 /* TextFieldEffects */;
+			targetProxy = DCB7052F7CD35559C2E84ADF786C0E80 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1CF9C284C70F82AF522C380720610718 /* Debug */ = {
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2460D14A0FD20157E6CB0A9FADA697D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8337ECC9CEFF378BF7FF994485D1BEA2 /* Pods-JSONParsing.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-JSONParsing/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JSONParsing/Pods-JSONParsing.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -446,6 +685,7 @@
 				PRODUCT_NAME = Pods_JSONParsing;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -453,135 +693,29 @@
 			};
 			name = Debug;
 		};
-		90C4A5DEAF11100AB7F25EB3CD286654 /* Release */ = {
+		576C583E88A92DC2279EB3BFC2CA8A6C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE75AF8BC1F0FBE3C286091868C7655E /* TextFieldEffects.xcconfig */;
+			baseConfigurationReference = B0FDB464AE97F474FDA457560A29654B /* Kingfisher.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kingfisher/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TextFieldEffects;
+				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
+				PRODUCT_NAME = Kingfisher;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9C7A5EE6DE2C3784BAA89D1A5D5EB30D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		A3E08598EB6DF8322D3D08963C31EBD9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C63839CBD2283EDB3321B2F3DA63404 /* SimpleButton.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SimpleButton/SimpleButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SimpleButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SimpleButton/SimpleButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SimpleButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B664013225F8BF8625D27B0533FF7489 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE75AF8BC1F0FBE3C286091868C7655E /* TextFieldEffects.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = TextFieldEffects;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -590,75 +724,89 @@
 			};
 			name = Debug;
 		};
-		CE5513B3E35A5C69E7F70F186BD3CE9C /* Debug */ = {
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		D042289E9E4F6744BFFC2FD3EC506BD4 /* Debug */ = {
+		5CF24B758ED5B479CDD35C8B25B49C6C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C63839CBD2283EDB3321B2F3DA63404 /* SimpleButton.xcconfig */;
+			baseConfigurationReference = DE3BF71955011E723B8F3A799784A070 /* TextFieldEffects.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SimpleButton/SimpleButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SimpleButton/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SimpleButton/SimpleButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SimpleButton;
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_NAME = TextFieldEffects;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -667,28 +815,25 @@
 			};
 			name = Debug;
 		};
-		F05D32FC741616439ABEF6A2162C2AF1 /* Release */ = {
+		B95B3B408C89F1871FB4E5C9306BC64D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8FEE5FA96449D5591081D93D55B4AAA9 /* Pods-JSONParsing.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-JSONParsing/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JSONParsing/Pods-JSONParsing.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -696,7 +841,136 @@
 				PRODUCT_NAME = Pods_JSONParsing;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD7699AE2AD3258716B7EC77C7D8ED86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE3BF71955011E723B8F3A799784A070 /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CED4EB7F5D673A11212D7EB3B4BA4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F88EFF5E0F62A8BDE2A3D38E4EB66195 /* SimpleButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleButton/SimpleButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleButton/SimpleButton.modulemap";
+				PRODUCT_NAME = SimpleButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E6CABD722ACF61687BC13E1C9A57598E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F88EFF5E0F62A8BDE2A3D38E4EB66195 /* SimpleButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleButton/SimpleButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleButton/SimpleButton.modulemap";
+				PRODUCT_NAME = SimpleButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8652F35BF322A3957D0F62338910B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0FDB464AE97F474FDA457560A29654B /* Kingfisher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kingfisher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
+				PRODUCT_NAME = Kingfisher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -705,11 +979,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		26B1F85594B8E5EB41808B75A5A76577 /* Build configuration list for PBXNativeTarget "SimpleButton" */ = {
+		24B0094C24CF873E8E9B4C6FFB23A91D /* Build configuration list for PBXNativeTarget "Pods-JSONParsing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D042289E9E4F6744BFFC2FD3EC506BD4 /* Debug */,
-				A3E08598EB6DF8322D3D08963C31EBD9 /* Release */,
+				2460D14A0FD20157E6CB0A9FADA697D2 /* Debug */,
+				B95B3B408C89F1871FB4E5C9306BC64D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -717,26 +991,35 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE5513B3E35A5C69E7F70F186BD3CE9C /* Debug */,
-				9C7A5EE6DE2C3784BAA89D1A5D5EB30D /* Release */,
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91EF662CFA70BD881562AC27316FAE41 /* Build configuration list for PBXNativeTarget "Pods-JSONParsing" */ = {
+		8C1E4CEFB2390CBE75E70BAC20F44BBF /* Build configuration list for PBXNativeTarget "Kingfisher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1CF9C284C70F82AF522C380720610718 /* Debug */,
-				F05D32FC741616439ABEF6A2162C2AF1 /* Release */,
+				576C583E88A92DC2279EB3BFC2CA8A6C /* Debug */,
+				E8652F35BF322A3957D0F62338910B79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA4B5B51102E58968DC4E4461763C3B0 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+		B77DBB94665922FAE79D440A9A3630F4 /* Build configuration list for PBXNativeTarget "SimpleButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B664013225F8BF8625D27B0533FF7489 /* Debug */,
-				90C4A5DEAF11100AB7F25EB3CD286654 /* Release */,
+				E6CABD722ACF61687BC13E1C9A57598E /* Debug */,
+				CED4EB7F5D673A11212D7EB3B4BA4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0D0DEE790130D4A7B379A65CF23E7BF /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF24B758ED5B479CDD35C8B25B49C6C /* Debug */,
+				BD7699AE2AD3258716B7EC77C7D8ED86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

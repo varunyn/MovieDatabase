@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		015B37FD1F9033D90080D483 /* CustomField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015B37FC1F9033D90080D483 /* CustomField.swift */; };
-		016EF5951FD1E38E00863790 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016EF5941FD1E38E00863790 /* PrimaryButton.swift */; };
+		0170B11C2008545C00C301F5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0170B11B2008545C00C301F5 /* Model.swift */; };
 		01C4FACC1F8E71BD0072A6E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C4FACB1F8E71BD0072A6E1 /* AppDelegate.swift */; };
 		01C4FACE1F8E71BE0072A6E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C4FACD1F8E71BE0072A6E1 /* ViewController.swift */; };
 		01C4FAD11F8E71BE0072A6E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C4FACF1F8E71BE0072A6E1 /* Main.storyboard */; };
@@ -21,8 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		015B37FC1F9033D90080D483 /* CustomField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomField.swift; sourceTree = "<group>"; };
-		016EF5941FD1E38E00863790 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		0170B11B2008545C00C301F5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		01C4FAC81F8E71BD0072A6E1 /* JSONParsing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONParsing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01C4FACB1F8E71BD0072A6E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01C4FACD1F8E71BE0072A6E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +48,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		016D2919200838B50016D834 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				01C4FADD1F8E827A0072A6E1 /* CustomCell.swift */,
+				01C4FADE1F8E827A0072A6E1 /* CustomCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		0170B11D2008546000C301F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0170B11B2008545C00C301F5 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		01C4FABF1F8E71BD0072A6E1 = {
 			isa = PBXGroup;
 			children = (
@@ -73,12 +88,10 @@
 			children = (
 				01C4FACB1F8E71BD0072A6E1 /* AppDelegate.swift */,
 				01C4FACD1F8E71BE0072A6E1 /* ViewController.swift */,
-				016EF5941FD1E38E00863790 /* PrimaryButton.swift */,
 				01C4FACF1F8E71BE0072A6E1 /* Main.storyboard */,
-				015B37FC1F9033D90080D483 /* CustomField.swift */,
 				01C4FAD21F8E71BE0072A6E1 /* Assets.xcassets */,
-				01C4FADD1F8E827A0072A6E1 /* CustomCell.swift */,
-				01C4FADE1F8E827A0072A6E1 /* CustomCell.xib */,
+				0170B11D2008546000C301F5 /* Model */,
+				016D2919200838B50016D834 /* CustomCell */,
 				01C4FAD41F8E71BE0072A6E1 /* LaunchScreen.storyboard */,
 				01C4FAE11F8EDB9D0072A6E1 /* SecondViewController.swift */,
 				01C4FAD71F8E71BE0072A6E1 /* Info.plist */,
@@ -133,7 +146,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Varun Yadav";
 				TargetAttributes = {
 					01C4FAC71F8E71BD0072A6E1 = {
@@ -196,9 +209,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JSONParsing/Pods-JSONParsing-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SimpleButton/SimpleButton.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SimpleButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -211,13 +231,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JSONParsing-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -227,8 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				016EF5951FD1E38E00863790 /* PrimaryButton.swift in Sources */,
-				015B37FD1F9033D90080D483 /* CustomField.swift in Sources */,
+				0170B11C2008545C00C301F5 /* Model.swift in Sources */,
 				01C4FAE21F8EDB9D0072A6E1 /* SecondViewController.swift in Sources */,
 				01C4FACE1F8E71BE0072A6E1 /* ViewController.swift in Sources */,
 				01C4FADF1F8E827A0072A6E1 /* CustomCell.swift in Sources */,
@@ -369,6 +391,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5AE753A3FA19BB2AADB29838 /* Pods-JSONParsing.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52872MAFU3;
@@ -385,6 +408,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 25C97556A15FB9CFBBB20EB2 /* Pods-JSONParsing.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52872MAFU3;

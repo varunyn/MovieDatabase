@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class SecondViewController: UIViewController {
 
@@ -14,41 +15,55 @@ class SecondViewController: UIViewController {
     var descript = ""
     var votess: Double = 0
     var img: UIImage!
-     var secondURL = ""
-    @IBOutlet weak var label1: UILabel!
+    var secondURL = ""
+    var releaseDate = ""
+    var thirdURL = ""
     
-    @IBOutlet weak var descImage: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+    
+    @IBOutlet weak var backDropImage: UIImageView!
+    
+    @IBOutlet weak var posterImage: UIImageView!
+    
     
     @IBOutlet weak var Rating: UILabel!
+    
     @IBOutlet weak var desc: UITextView!
     
-  
     @IBOutlet weak var votes: UILabel!
     
+    @IBOutlet weak var yearLabel: UILabel!
     override func viewDidLoad() {
+        
         super.viewDidLoad()
+//
+//           self.navigationController?.navigationBar.barTintColor = UIColor.black
+//        let textAttributes = [NSAttributedStringKey.foregroundColor:UIColor.white]
+//        navigationController?.navigationBar.titleTextAttributes = textAttributes
         
-        label1.text = title1
+        navigationController?.isNavigationBarHidden = false
+        
+        titleLabel.text = title1
         desc.text = descript
-        let imgURL = URL(string: secondURL)
+
+        yearLabel.text = String(releaseDate.prefix(4))
+
+        let posterURL = "https://image.tmdb.org/t/p/w500"
         
-        if imgURL == nil {
-             descImage.image = #imageLiteral(resourceName: "No image found")
-           
-            
-        }
-        if imgURL != nil {
-            do{
-                let data = try Data.init(contentsOf: imgURL!)
-            descImage.image = UIImage.init(data: data)
-            }
-            catch let error {
-                print(error)
-            }
-        }
-//        descImage.image = img
-        votes.text = String(votess)
-        // Do any additional setup after loading the view.
+        let imagePath = secondURL
+        
+        let backDropPath = thirdURL
+        
+        let backDropUrl = posterURL + backDropPath
+        let url1 = URL.init(string: backDropUrl)
+        backDropImage.kf.setImage(with: url1)
+        
+        let finalPath = posterURL + imagePath
+        let url = URL.init(string: finalPath)
+        posterImage.kf.setImage(with: url)
+      
+    votes.text = String(votess)
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -56,6 +71,7 @@ class SecondViewController: UIViewController {
          descript = ""
         votess = 0
         img = nil
+//        releaseDate = ""
         
         
     }
